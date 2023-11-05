@@ -9,7 +9,7 @@
     using System.Windows.Forms;
     using QLBV.DataAccess;
     using System.Configuration;
-    using UI;    
+    using DHospital;    
 
     public class frmTheKho : Form
     {
@@ -112,11 +112,12 @@
             // label13
             // 
             this.label13.BackColor = System.Drawing.SystemColors.Highlight;
+            this.label13.Dock = System.Windows.Forms.DockStyle.Top;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.White;
-            this.label13.Location = new System.Drawing.Point(-232, 0);
+            this.label13.Location = new System.Drawing.Point(0, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(992, 32);
+            this.label13.Size = new System.Drawing.Size(518, 32);
             this.label13.TabIndex = 177;
             this.label13.Text = "LẬP THẺ KHO";
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -229,6 +230,7 @@
             this.lswTenThuoc.FullRowSelect = true;
             this.lswTenThuoc.GridLines = true;
             this.lswTenThuoc.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
+            this.lswTenThuoc.HideSelection = false;
             this.lswTenThuoc.Location = new System.Drawing.Point(112, 80);
             this.lswTenThuoc.Name = "lswTenThuoc";
             this.lswTenThuoc.Size = new System.Drawing.Size(396, 80);

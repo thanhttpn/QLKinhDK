@@ -178,13 +178,14 @@
             // label13
             // 
             this.label13.BackColor = System.Drawing.SystemColors.Highlight;
+            this.label13.Dock = System.Windows.Forms.DockStyle.Top;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.White;
-            this.label13.Location = new System.Drawing.Point(-24, 0);
+            this.label13.Location = new System.Drawing.Point(0, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(584, 32);
+            this.label13.Size = new System.Drawing.Size(504, 32);
             this.label13.TabIndex = 7;
-            this.label13.Text = "BỆNH VIỆN QUỐC TẾ SÀI GÒN - GIA LAI";
+            this.label13.Text = "Quản lý kính";
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // groupBox1

@@ -7,6 +7,7 @@ using System.Text;
 using System.Windows.Forms;
 using System.IO;
 using QLBV.DataAccess;
+using QLBV.Common;
 
 namespace RestoreKinh
 {
@@ -34,7 +35,7 @@ namespace RestoreKinh
         {
             DataSet ds = new DataSet();
             string path = "";
-            QLBV.Common.CommonFunctions.Instance.UnzipFile(txtfileName.Text, path);
+            CommonFunctionsDhospital.Instance.UnzipFile(txtfileName.Text, path);
             string FileXMLSource = path + "\\" + Path.GetFileName(txtfileName.Text).Substring(0, Path.GetFileName(txtfileName.Text).Length - 5) + ".XML";
             ds.Tables.Clear();
             if (System.IO.File.Exists(FileXMLSource + ".dts"))

@@ -8,8 +8,7 @@
     using System.Drawing;
     using System.Windows.Forms;
     using QLBV.DataAccess;
-    using UI;
-
+    using DHospital;
 
     public class frmUpdateForm_Multi : UpdateForm
     {

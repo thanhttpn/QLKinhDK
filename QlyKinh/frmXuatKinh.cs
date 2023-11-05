@@ -11,7 +11,7 @@
     using System.Configuration;
     using System.IO;
     using QLBV.Common.Controls;
-    using UI;    
+    using DHospital;
 
     public class frmXuatKinh : frmUpdateForm_Multi
     {

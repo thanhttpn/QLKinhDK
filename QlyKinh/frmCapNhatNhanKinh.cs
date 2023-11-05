@@ -130,11 +130,12 @@
             // label13
             // 
             this.label13.BackColor = System.Drawing.SystemColors.Highlight;
+            this.label13.Dock = System.Windows.Forms.DockStyle.Top;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.White;
             this.label13.Location = new System.Drawing.Point(0, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(608, 32);
+            this.label13.Size = new System.Drawing.Size(512, 32);
             this.label13.TabIndex = 28;
             this.label13.Text = "CẬP NHẬT NHÃN KÍNH";
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -159,7 +160,7 @@
             this.label3.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.label3.Location = new System.Drawing.Point(3, 64);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(97, 16);
+            this.label3.Size = new System.Drawing.Size(96, 16);
             this.label3.TabIndex = 30;
             this.label3.Text = "Tên Nhãn Kính:";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -170,7 +171,7 @@
             this.label2.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.label2.Location = new System.Drawing.Point(8, 40);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(94, 16);
+            this.label2.Size = new System.Drawing.Size(93, 16);
             this.label2.TabIndex = 29;
             this.label2.Text = "Mã Nhãn Kính:";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;

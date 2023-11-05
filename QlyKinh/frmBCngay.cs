@@ -9,7 +9,7 @@
     using System.Windows.Forms;
     using QLBV.DataAccess;
     using System.Configuration;
-    using UI;    
+    using DHospital;
 
     public class frmBCngay : Form
     {
