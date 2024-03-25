@@ -9,3 +9,5 @@
 /obj
 /Reports/bin
 /Reports/obj
+/.vs
+/packages
