@@ -73,6 +73,7 @@
         private TextBox txtSLT;
         private TextBox txtTenKinh;
         private TextBox txtTongTien;
+        private Label label6;
         private TextBox txtTongTienTrongNgay;
 
         public frmBanKinh()
@@ -217,6 +218,7 @@
             this.imageList = new System.Windows.Forms.ImageList(this.components);
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.lblNgayBan = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // cmdInPhieu
@@ -287,6 +289,7 @@
             this.lswDS_BNLayKinhCu.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lswDS_BNLayKinhCu.FullRowSelect = true;
             this.lswDS_BNLayKinhCu.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None;
+            this.lswDS_BNLayKinhCu.HideSelection = false;
             this.lswDS_BNLayKinhCu.Location = new System.Drawing.Point(0, 152);
             this.lswDS_BNLayKinhCu.Name = "lswDS_BNLayKinhCu";
             this.lswDS_BNLayKinhCu.Size = new System.Drawing.Size(200, 408);
@@ -530,9 +533,9 @@
             // label12
             // 
             this.label12.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(216, 152);
+            this.label12.Location = new System.Drawing.Point(449, 155);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(104, 23);
+            this.label12.Size = new System.Drawing.Size(63, 17);
             this.label12.TabIndex = 207;
             this.label12.Text = "Họ Tên BN";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -542,9 +545,9 @@
             this.txtHoTenBN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.txtHoTenBN.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtHoTenBN.ForeColor = System.Drawing.Color.Blue;
-            this.txtHoTenBN.Location = new System.Drawing.Point(448, 152);
+            this.txtHoTenBN.Location = new System.Drawing.Point(515, 152);
             this.txtHoTenBN.Name = "txtHoTenBN";
-            this.txtHoTenBN.Size = new System.Drawing.Size(344, 22);
+            this.txtHoTenBN.Size = new System.Drawing.Size(277, 22);
             this.txtHoTenBN.TabIndex = 202;
             // 
             // groupBox5
@@ -597,6 +600,7 @@
             this.lswToaThuocCu.FullRowSelect = true;
             this.lswToaThuocCu.GridLines = true;
             this.lswToaThuocCu.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
+            this.lswToaThuocCu.HideSelection = false;
             this.lswToaThuocCu.Location = new System.Drawing.Point(328, 176);
             this.lswToaThuocCu.Name = "lswToaThuocCu";
             this.lswToaThuocCu.Size = new System.Drawing.Size(451, 88);
@@ -629,6 +633,7 @@
             this.lswTenThuoc.FullRowSelect = true;
             this.lswTenThuoc.GridLines = true;
             this.lswTenThuoc.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
+            this.lswTenThuoc.HideSelection = false;
             this.lswTenThuoc.Location = new System.Drawing.Point(328, 200);
             this.lswTenThuoc.Name = "lswTenThuoc";
             this.lswTenThuoc.Size = new System.Drawing.Size(344, 92);
@@ -797,11 +802,22 @@
             this.lblNgayBan.TabIndex = 241;
             this.lblNgayBan.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // label6
+            // 
+            this.label6.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(208, 155);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(112, 17);
+            this.label6.TabIndex = 242;
+            this.label6.Text = "Mã BN HIS";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
             // frmBanKinh
             // 
             this.AutoScaleBaseSize = new System.Drawing.Size(6, 15);
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.ClientSize = new System.Drawing.Size(794, 570);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.lblNgayBan);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.toolBar1);
@@ -892,6 +908,7 @@
             this.Controls.SetChildIndex(this.toolBar1, 0);
             this.Controls.SetChildIndex(this.groupBox1, 0);
             this.Controls.SetChildIndex(this.lblNgayBan, 0);
+            this.Controls.SetChildIndex(this.label6, 0);
             this.ResumeLayout(false);
             this.PerformLayout();
 

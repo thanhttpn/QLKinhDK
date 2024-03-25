@@ -384,6 +384,7 @@
                     nhap.ShowDialog();
                     if (nhap.key == -1)
                     {
+                        this.Close();
                         Application.Exit();
                         return;
                     }
@@ -443,7 +444,8 @@
                 nhap2.ShowDialog();
                 if (nhap2.key == -1)
                 {
-                    Application.Exit();
+                    this.Close();
+                    //Application.Exit();
                 }
                 this.maNV = nhap2.ma;
                 this.tenNV = nhap2.hoten;
